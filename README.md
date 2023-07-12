@@ -8,8 +8,8 @@ Before that, a novel dataset, namely KaggleSRD, is already available for public 
 * CUDA > 11.1 and gcc > 7 (for DCN_v3 installation) and supported pyTorch >= 1.0 
 * Python packages: 'pip install lmdb numpy pyyaml opencv-python'
 * DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage)
-* 'cd ./RGETGAN/codes/ops_dcn_v3'
-* 'sh make.sh'
+  'cd ./RGETGAN/codes/ops_dcn_v3'
+  'sh make.sh'
 
 
 ## Download Dataset
