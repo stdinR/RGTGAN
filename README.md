@@ -6,7 +6,7 @@ Before that, a novel dataset, namely KaggleSRD, is already available for public 
 ## Pre-requisites
 * Python 3.6+ on Ubuntu 22.04
 * CUDA > 11.1 and gcc > 7 (for DCN_v3 installation) and supported pyTorch >= 1.0 
-* Python packages: `pip install numpy pyyaml opencv-python`
+* Python packages: `pip install numpy pyyaml opencv-python scipy`
 * DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage)
 * `cd ./RGETGAN/codes/ops_dcn_v3`
 * `sh make.sh`
