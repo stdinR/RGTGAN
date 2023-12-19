@@ -11,7 +11,7 @@ Before that, a novel dataset, namely KaggleSRD, is already available for public 
 
 
 ## Download Dataset
-- KaggleSRD, providing HR-reference image pairs, can be downloaded from [google drive](https://drive.google.com/file/d/1LydosS8NQeloly5vU7TX-vr1fZks6AXz/view?usp=drive_link)
+- KaggleSRD, providing 1717 pairs of HR-Ref image pairs, can be downloaded from [google drive](https://drive.google.com/file/d/1LydosS8NQeloly5vU7TX-vr1fZks6AXz/view?usp=drive_link)
 - RRSSRD, dataset from [RRSGAN](https://github.com/dongrunmin/RRSGAN), can be downloaded from [here](https://pan.baidu.com/share/init?surl=M5HAlb9DqO5IOWQexETFaw), passwword:lnff
 
 
