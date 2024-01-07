@@ -27,7 +27,12 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 - `sh val.sh`
 
 ## Results
-
+<p align="center">
+  <img src="figures/Fig10.jpg">
+</p>
+<p align="center">
+  <img src="figures/Fig11.jpg">
+</p>
 
 ## Acknowledgement
 The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](https://github.com/dongrunmin/RRSGAN). We thank the authors for their excellent contributions.
