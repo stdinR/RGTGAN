@@ -1,5 +1,5 @@
 # RGTGAN
-This reposity records code for RGTGAN, titled 'Reference-Based Gradient-Assisted Texture-Enhancement GAN for Remote Sensing Super-Resolution' and dataset for KaggleSRD. Both of which are aimed for reference-based super-resolution (RefSR) in the field of remote sensing.
+PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assisted Texture-Enhancement GAN for Remote Sensing Super-Resolution' and dataset for KaggleSRD.
 
 ## Pre-requisites
 * Python 3.6+ on Ubuntu 22.04
