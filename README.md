@@ -8,7 +8,7 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 * DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage)) `cd ./RGTGAN/codes/ops_dcn_v3` then `sh make.sh`
 
 ## Download Dataset
-- KaggleSRD, providing 1717 pairs of HR-Ref image pairs, can be downloaded from [google drive](https://drive.google.com/file/d/1LydosS8NQeloly5vU7TX-vr1fZks6AXz/view?usp=drive_link)
+- KaggleSRD, providing 501 pairs of HR-Ref image pairs, can be downloaded from [google drive](https://drive.google.com/file/d/1LydosS8NQeloly5vU7TX-vr1fZks6AXz/view?usp=drive_link)
 - RRSSRD, dataset from [RRSGAN](https://github.com/dongrunmin/RRSGAN), can be downloaded from [baidu pan](https://pan.baidu.com/share/init?surl=M5HAlb9DqO5IOWQexETFaw), passwword:lnff
 
 ## Data Preprocess
