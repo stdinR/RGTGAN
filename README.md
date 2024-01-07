@@ -20,3 +20,4 @@ This reposity records code for RGTGAN, titled 'Reference-Based Gradient-Assisted
 - To be open soon
 
 ## Acknowledgement
+The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](https://github.com/dongrunmin/RRSGAN). We thank the authors for their excellent contributions.
