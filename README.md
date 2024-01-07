@@ -15,9 +15,19 @@ This reposity records code for RGTGAN, titled 'Reference-Based Gradient-Assisted
 - Unzip and put the training data in the folder as `./dataset/train/(HR and Ref)`
 - Generate corresponding LR image, Bic image and resampled Ref image via `cd ./dataset/data_script` then `python create_set.py`
 - Transform the training image set into LMDB format for faster IO speed via `cd ./dataset/data_script` then `python create_lmdb.py`
+- Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in `./codes/models/archs/pretrained_model`
 
 ## Train
-- To be open soon
+- `cd ./codes/example/RRSGAN`
+- sh train.sh
+- Modify the gpu setting, hyperparameter, or other training settings in `./codes/example/RGTGAN/options/RGTGAN.yml` if needed
+
+## Test
+- `cd ./codes/example/RRSGAN`
+- `sh val.sh`
+
+## Results
+
 
 ## Acknowledgement
 The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](https://github.com/dongrunmin/RRSGAN). We thank the authors for their excellent contributions.
