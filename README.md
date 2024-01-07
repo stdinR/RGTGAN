@@ -27,9 +27,11 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 - `sh val.sh`
 
 ## Results
+- RRSSRD test set:
 <p align="center">
   <img src="figures/Fig10.jpg">
 </p>
+- KaggleSRD test set:
 <p align="center">
   <img src="figures/Fig11.jpg">
 </p>
