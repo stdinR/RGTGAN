@@ -18,12 +18,12 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 - Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in `./codes/models/archs/pretrained_model`
 
 ## Train
-- `cd ./codes/example/RRSGAN`
+- `cd ./codes/example/RGTGAN`
 - sh train.sh
 - Modify the gpu setting, hyperparameter, or other training settings in `./codes/example/RGTGAN/options/RGTGAN.yml` if needed
 
 ## Test
-- `cd ./codes/example/RRSGAN`
+- `cd ./codes/example/RGTGAN`
 - `sh val.sh`
 
 ## Results
