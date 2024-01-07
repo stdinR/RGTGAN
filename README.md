@@ -34,11 +34,12 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
   <img src="figures/Fig11.jpg">
 </p>
 
+## Citation
+To be updated
+
 ## Acknowledgement
 The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](https://github.com/dongrunmin/RRSGAN). We thank the authors for their excellent contributions.
 
-## Citation
-To be updated
 
 ## Contact
 If you have any questions about our work, please contact [tuziming21@mails.ucas.ac.cn](tuziming21@mails.ucas.ac.cn)
