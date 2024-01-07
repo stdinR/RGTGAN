@@ -50,4 +50,4 @@ The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](h
 
 
 ## Contact
-If you have any questions about our work, please contact [tuziming21@mails.ucas.ac.cn](tuziming21@mails.ucas.ac.cn)
+If you have any questions about our work, please contact [tuziming21@mails.ucas.ac.cn](tuziming21@mails.ucas.ac.cn).
