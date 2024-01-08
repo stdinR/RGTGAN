@@ -15,10 +15,16 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 - RRSSRD, dataset from [RRSGAN](https://github.com/dongrunmin/RRSGAN), can be downloaded from [baidu pan](https://pan.baidu.com/share/init?surl=M5HAlb9DqO5IOWQexETFaw), passwword:lnff
 
 ## Data Preprocess
-- Unzip and put the training data in the folder as `./dataset/train/(HR and Ref)`
-- Generate corresponding LR image, Bic image and resampled Ref image via `cd ./dataset/data_script` then `python create_set.py`
-- Transform the training image set into LMDB format for faster IO speed via `cd ./dataset/data_script` then `python create_lmdb.py`
-- Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in `./codes/models/archs/pretrained_model`
+- Unzip and put the training data in the folder as
+  - `./dataset/train/(HR and Ref)`
+- Generate corresponding LR image, Bic image and resampled Ref image via
+  - `cd ./dataset/data_script`
+  - `python create_set.py`
+- Transform the training image set into LMDB format for faster IO speed via
+  - `cd ./dataset/data_script`
+  - `python create_lmdb.py`
+- Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in
+  - `./codes/models/archs/pretrained_model`
 
 ## Train
 - Modify the gpu setting, hyperparameter, or other training settings in `./codes/example/RGTGAN/options/RGTGAN.yml` if needed
