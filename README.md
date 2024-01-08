@@ -7,7 +7,7 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 * Python packages:
   `pip install numpy pyyaml opencv-python scipy`
 * DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage))
-  `cd ./RGTGAN/codes/ops_dcn_v3`
+  `cd ./RGTGAN/codes/ops_dcn_v3` then 
   `sh make.sh`
 
 ## Download Dataset
