@@ -4,8 +4,11 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 ## Pre-requisites
 * Python 3.6+ on Ubuntu 22.04
 * CUDA >= 11.1 and gcc > 7 (for DCN_v3 installation) and corresponding supported pyTorch
-* Python packages: `pip install numpy pyyaml opencv-python scipy`
-* DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage)) `cd ./RGTGAN/codes/ops_dcn_v3` then `sh make.sh`
+* Python packages:
+  `pip install numpy pyyaml opencv-python scipy`
+* DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage))
+  `cd ./RGTGAN/codes/ops_dcn_v3`
+  `sh make.sh`
 
 ## Download Dataset
 - KaggleSRD, providing 501 pairs of HR-Ref image pairs, can be downloaded from [google drive](https://drive.google.com/file/d/1LydosS8NQeloly5vU7TX-vr1fZks6AXz/view?usp=drive_link)
