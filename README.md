@@ -1,4 +1,4 @@
-# RGTGAN
+# RGTGAN (IEEE TGRS 2024)
 PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assisted Texture-Enhancement GAN for Remote Sensing Super-Resolution' and dataset for KaggleSRD.
 
 ## Pre-requisites
@@ -52,7 +52,7 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 </p>
 
 ## Citation
-To be updated
+Our paper has been accpeted by IEEE Transactions on Geoscience and Remote Sensing 2024. Citation to be updated.
 
 ## Acknowledgement
 The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](https://github.com/dongrunmin/RRSGAN). We thank the authors for their excellent contributions.
