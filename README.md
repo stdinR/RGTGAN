@@ -27,9 +27,9 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
   - `./codes/models/archs/pretrained_model`
 
 ## Train
-- `cd ./codes/example/RGTGAN`
-- Modify the gpu setting, hyperparameter, or other training settings in `./codes/example/RGTGAN/options/RGTGAN.yml` if needed
-- `sh train.sh`
+- Enter directory: `cd ./codes/example/RGTGAN`
+- Modify the training settings in `./codes/example/RGTGAN/options/RGTGAN.yml`
+- Start training: `sh train.sh`
 
 ## Test
 - Modify `val.sh` and `val.py` based on your configurations
