@@ -52,7 +52,20 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 </p>
 
 ## Citation
-Our paper has been accpeted by IEEE Transactions on Geoscience and Remote Sensing 2024. Citation to be updated.
+If you find this code useful for your research, please consider citing our paper:
+``````
+@ARTICLE{10415231,
+  author={Tu, Ziming and Yang, Xiubin and He, Xi and Yan, Jiapu and Xu, Tingting},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={RGTGAN: Reference-Based Gradient-Assisted Texture-Enhancement GAN for Remote Sensing Super-Resolution}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-21},
+  keywords={Image resolution;Image reconstruction;Feature extraction;Superresolution;Transformers;Generative adversarial networks;Electronic mail;Enhanced texture;generative adversarial network (GAN);gradient;reference-based super-resolution (Ref-SR);remote sensing (RS) imagery},
+  doi={10.1109/TGRS.2024.3359095}}
+``````
+
 
 ## Acknowledgement
 The code is based on [MMSR](https://github.com/open-mmlab/mmagic) and [RRSGAN](https://github.com/dongrunmin/RRSGAN). We thank the authors for their excellent contributions.
