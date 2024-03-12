@@ -17,7 +17,7 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 ## Data Preprocess
 - Unzip and put the training data in the folder as
   - `./dataset/train/(HR and Ref)`
-- Generate corresponding LR image, Bic image and resampled Ref image via
+- (To be updated) Generate corresponding LR image, Bic image and resampled Ref image via
   - `cd ./dataset/data_script`
   - `python create_set.py`
 - Transform the training image set into LMDB format for faster IO speed via
