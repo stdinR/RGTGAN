@@ -165,7 +165,7 @@ class GPCD_Align(nn.Module):
         ## end of L3_offset_tail (for IDConv)
         Ref_use_fea_l[2] = torch.permute(Ref_use_fea_l[2], [0, 2, 3, 1])
         L3_offset = torch.permute(L3_offset, [0, 2, 3, 1])
-        L3_fea = self.L3_dcnpack(Ref_use_fea_l[2], L3_offset_tail.permute(0,2,3,1)) # L3_offset_tail
+        L3_fea = self.L3_dcnpack(Ref_use_fea_l[2], L3_offset) # L3_offset_tail.permute([0,2,3,1])
         L3_fea = torch.permute(L3_fea, [0, 3, 1, 2])
         L3_offset = torch.permute(L3_offset, [0, 3, 1, 2])
         L3_fea_output = self.lrelu(self.L3_fea_conv(L3_fea))
@@ -179,7 +179,7 @@ class GPCD_Align(nn.Module):
         L2_offset_tail = self.DenseRes(Ref_fea_l[1], LR_fea_l[1])
         Ref_use_fea_l[1] = torch.permute(Ref_use_fea_l[1], [0, 2, 3, 1])
         L2_offset = torch.permute(L2_offset, [0, 2, 3, 1])
-        L2_fea = self.L2_dcnpack(Ref_use_fea_l[1], L2_offset_tail.permute(0, 2, 3, 1)) # L2_offset_tail
+        L2_fea = self.L2_dcnpack(Ref_use_fea_l[1], L2_offset) # L2_offset_tail.permute([0,2,3,1])
         L2_fea = torch.permute(L2_fea, [0, 3, 1, 2])
         L2_offset = torch.permute(L2_offset, [0, 3, 1, 2])
         L3_fea = F.interpolate(L3_fea_output, scale_factor=2, mode='bilinear', align_corners=False)
@@ -194,7 +194,7 @@ class GPCD_Align(nn.Module):
         L1_offset_tail = self.DenseRes(Ref_fea_l[0], LR_fea_l[0])
         Ref_use_fea_l[0] = torch.permute(Ref_use_fea_l[0], [0, 2, 3, 1])
         L1_offset = torch.permute(L1_offset, [0, 2, 3, 1])
-        L1_fea = self.L1_dcnpack(Ref_use_fea_l[0], L1_offset_tail.permute([0,2,3,1])) # L1_offset_tail
+        L1_fea = self.L1_dcnpack(Ref_use_fea_l[0], L1_offset) # L1_offset_tail.permute([0,2,3,1])
         L1_fea = torch.permute(L1_fea, [0, 3, 1, 2])
         L2_fea = F.interpolate(L2_fea_output, scale_factor=2, mode='bilinear', align_corners=False)
         L1_fea = self.L1_fea_conv(torch.cat([L1_fea, L2_fea], dim=1))
@@ -206,7 +206,7 @@ class GPCD_Align(nn.Module):
         offset_tail = self.DenseRes(L1_fea, LR_fea_l[0])
         L1_fea = torch.permute(L1_fea, [0, 2, 3, 1])
         offset = torch.permute(offset, [0, 2, 3, 1])
-        L1_fea_output = self.cas_dcnpack(L1_fea, offset_tail.permute([0,2,3,1])) # offset_tail
+        L1_fea_output = self.cas_dcnpack(L1_fea, offset) # offset_tail
         L1_fea_output = torch.permute(L1_fea_output, [0, 3, 1, 2])
         L1_fea_output = self.lrelu(self.cas_fea_conv(L1_fea_output))
 

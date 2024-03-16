@@ -15,18 +15,13 @@ import util as util
 
 
 def main():
-    dataset = 'train'  #val_1st
+    dataset = 'train' 
     if dataset == 'val_1st':
         opt = {}
-        ## RRSSRD test
-        # data_path = '../val/RRSSRD_test/val_1st/'
-        # lmdb_path = '../val/RRSSRD_test/val_1st_lmdb/'
-        # fold_list = glob.glob('../val/RRSSRD_test/val_1st/*')
-
         ## KaggleSRD test
-        data_path = '../val/KaggleSRD_test/val_1'
-        lmdb_path = '../val/KaggleSRD_test/val_1_lmdb/'
-        fold_list = glob.glob('../val/KaggleSRD_test/val_1/*')
+        data_path = '../val/val_KaggleSRD/val_1'
+        lmdb_path = '../val/val_KaggleSRD/val_1_lmdb/'
+        fold_list = glob.glob('../val/val_KaggleSRD/val_1/*')
 
         util.mkdir_and_rename(lmdb_path)
         print(fold_list)
@@ -40,7 +35,7 @@ def main():
     elif dataset == 'train':
         opt = {}
         ## GT
-        # modify to RRSSRD train root accordingly
+        # modify to KaggleSRD train root accordingly
         data_path = '../train/train_KaggleSRD/'
         lmdb_path = '../train/train_KaggleSRD_lmdb/'
         fold_list = glob.glob('../train/train_KaggleSRD/*')
