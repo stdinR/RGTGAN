@@ -5,7 +5,7 @@
 name: 001_RGTGAN_KaggleSRD
 use_tb_logger: false
 model: RGTGAN_model
-scale: 4 # only 4 is supported
+scale: 4 # only 4 is supported currently
 Ref_color: RGB # choose gray, y, RGB
 gpu_ids: [0,1]
 
@@ -44,11 +44,11 @@ datasets:
 #    dataroot_Ref: ../../../dataset/val/val_1st_lmdb/google_Ref.lmdb
 #    dataroot_Ref_DUX4: ../../../dataset/val/val_1st_lmdb/google_Ref_DUX4.lmdb
 
-    dataroot_GT: ../../../dataset/val/KaggleSRD_test/val_1_lmdb/HR.lmdb
-    dataroot_LQ: ../../../dataset/val/KaggleSRD_test/val_1_lmdb/LR.lmdb
-    dataroot_LQ_UX4: ../../../dataset/val/KaggleSRD_test/val_1_lmdb/LR_UX4.lmdb
-    dataroot_Ref: ../../../dataset/val/KaggleSRD_test/val_1_lmdb/Ref.lmdb
-    dataroot_Ref_DUX4: ../../../dataset/val/KaggleSRD_test/val_1_lmdb/Ref_DUX4.lmdb
+    dataroot_GT: ../../../dataset/val/val_KaggleSRD/val_1_lmdb/HR.lmdb
+    dataroot_LQ: ../../../dataset/val/val_KaggleSRD/val_1_lmdb/LR.lmdb
+    dataroot_LQ_UX4: ../../../dataset/val/val_KaggleSRD/val_1_lmdb/LR_UX4.lmdb
+    dataroot_Ref: ../../../dataset/val/val_KaggleSRD/val_1_lmdb/Ref.lmdb
+    dataroot_Ref_DUX4: ../../../dataset/val/val_KaggleSRD/val_1_lmdb/Ref_DUX4.lmdb
 
 
 #### network structures
