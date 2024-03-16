@@ -28,8 +28,12 @@ sh make.sh
   - `./dataset/train/train_KaggleSRD/HR(and others)`
   - `./dataset/train/val_KaggleSRD/HR(and others)`
 - **Step II.** Transform the images set into LMDB format for faster IO speed via
-  - `cd ./dataset/data_script`
-  - `python create_lmdb.py`
+```
+cd ./dataset/data_script
+```
+```
+python create_lmdb.py
+```
 - **Step III.** Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in
   - `./codes/models/archs/pretrained_model`
 
