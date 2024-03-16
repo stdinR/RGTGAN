@@ -47,7 +47,7 @@ cd ./codes/example/RGTGAN
 ```
 sh train.sh
 ```
-- **Optional** Also, you can change other training configurations in `RGTGAN.yml` for addtional experiments
+- **Optional.** Also, you can change other training configurations in `RGTGAN.yml` for addtional experiments
 
 ## Test
 - **Step I.** Enter directory:
@@ -59,7 +59,7 @@ cd ./codes/example/RGTGAN
 ```
 sh val.sh
 ```
-- **Optional** Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research.
+- **Optional.** Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research.
 
 ## Results
 - RRSSRD test set:
