@@ -12,8 +12,12 @@ PyTorch implementation and dataset for "[RGTGAN: Reference-Based Gradient-Assist
 pip install numpy pyyaml opencv-python scipy
 ```
 - DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage))
-  - `cd ./RGTGAN/codes/ops_dcn_v3` then 
-  - `sh make.sh`
+```
+cd ./RGTGAN/codes/ops_dcn_v3
+```
+```
+sh make.sh
+```
 
 ## Download Dataset
 - KaggleSRD, providing 501 pairs of training images and 4 groups of test sets, can be downloaded from [google drive](https://drive.google.com/file/d/1GfcPBMmpc7Rmj-FPVW93mv3GGqBzoMFn/view?usp=drive_link)
