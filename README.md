@@ -42,24 +42,24 @@ python create_lmdb.py
 ```
 cd ./codes/example/RGTGAN
 ```
-- Modify the dataroots for train and val based on your actual root in `./codes/example/RGTGAN/options/RGTGAN.yml`
-- Start training:
+- **Step II.** Modify the dataroots for train and val based on your actual root in `./codes/example/RGTGAN/options/RGTGAN.yml`
+- **Step III.** Start training:
 ```
 sh train.sh
 ```
-- Also, you can change other training configurations in `RGTGAN.yml` for addtional experiments
+- **Optional** Also, you can change other training configurations in `RGTGAN.yml` for addtional experiments
 
 ## Test
-- Enter directory:
+- **Step I.** Enter directory:
 ```
 cd ./codes/example/RGTGAN
 ```
-- Modify `val.sh` and `val.py` based on your configurations
-- Start Testing:
+- **Step II.** Modify `val.sh` and `val.py` based on your configurations
+- **Step III.** Start Testing:
 ```
 sh val.sh
 ```
-- Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research.
+- **Optional** Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research.
 
 ## Results
 - RRSSRD test set:
