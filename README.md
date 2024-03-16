@@ -24,13 +24,13 @@ sh make.sh
 - RRSSRD, dataset from [RRSGAN](https://github.com/dongrunmin/RRSGAN), can be downloaded from [baidu pan](https://pan.baidu.com/share/init?surl=M5HAlb9DqO5IOWQexETFaw), passwword:lnff
 
 ## Data Preprocess
-- Unzip and put the training data and test data in the folder as
+- **Step I.** Unzip and put the training data and test data in the folder as
   - `./dataset/train/train_KaggleSRD/HR(and others)`
   - `./dataset/train/val_KaggleSRD/HR(and others)`
-- Transform the images set into LMDB format for faster IO speed via
+- **Step II.** Transform the images set into LMDB format for faster IO speed via
   - `cd ./dataset/data_script`
   - `python create_lmdb.py`
-- Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in
+- **Step III.** Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in
   - `./codes/models/archs/pretrained_model`
 
 ## Train
