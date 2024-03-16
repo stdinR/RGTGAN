@@ -8,7 +8,7 @@ PyTorch implementation and dataset for "[RGTGAN: Reference-Based Gradient-Assist
 - Python 3.6+ on Ubuntu 22.04
 - CUDA >= 11.1 and gcc > 7 (for DCN_v3 installation) and corresponding supported pyTorch
 - Python packages:
-  - `pip install numpy pyyaml opencv-python scipy`
+  - ```pip install numpy pyyaml opencv-python scipy```
 - DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage))
   - `cd ./RGTGAN/codes/ops_dcn_v3` then 
   - `sh make.sh`
