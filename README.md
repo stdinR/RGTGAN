@@ -38,15 +38,27 @@ python create_lmdb.py
   - `./codes/models/archs/pretrained_model`
 
 ## Train
-- Enter directory: `cd ./codes/example/RGTGAN`
+- **Step I.** Enter directory:
+```
+cd ./codes/example/RGTGAN
+```
 - Modify the dataroots for train and val based on your actual root in `./codes/example/RGTGAN/options/RGTGAN.yml`
-- Start training: `sh train.sh`
+- Start training:
+```
+sh train.sh
+```
 - Also, you can change other training configurations in `RGTGAN.yml` for addtional experiments
 
 ## Test
-- Enter directory: `cd ./codes/example/RGTGAN`
+- Enter directory:
+```
+cd ./codes/example/RGTGAN
+```
 - Modify `val.sh` and `val.py` based on your configurations
-- Start Testing: `sh val.sh`
+- Start Testing:
+```
+sh val.sh
+```
 - Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research.
 
 ## Results
