@@ -15,9 +15,10 @@ PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assi
 - RRSSRD, dataset from [RRSGAN](https://github.com/dongrunmin/RRSGAN), can be downloaded from [baidu pan](https://pan.baidu.com/share/init?surl=M5HAlb9DqO5IOWQexETFaw), passwword:lnff
 
 ## Data Preprocess
-- Unzip and put the training data in the folder as
-  - `./dataset/train/train_KaggleSRD/`
-- Transform the training image set into LMDB format for faster IO speed via
+- Unzip and put the training data and test data in the folder as
+  - `./dataset/train/train_KaggleSRD/HR(and others)`
+  - `./dataset/train/val_KaggleSRD/HR(and others)`
+- Transform the images set into LMDB format for faster IO speed via
   - `cd ./dataset/data_script`
   - `python create_lmdb.py`
 - Download the [pretrained vgg model](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and put it in
