@@ -1,4 +1,4 @@
-# RGTGAN (IEEE TGRS 2024) (To be updated before March 23)
+# RGTGAN (IEEE TGRS 2024) (To be fully updated before March 23)
 PyTorch implementation for RGTGAN, titled 'RGTGAN: Reference-Based Gradient-Assisted Texture-Enhancement GAN for Remote Sensing Super-Resolution' and dataset for KaggleSRD.
 
 ## Pre-requisites
