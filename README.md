@@ -43,8 +43,8 @@ python create_lmdb.py
 cd ./codes/example/RGTGAN
 ```
 - **Step II.** Modify the dataroots for train and val based on your actual root in
- - `./codes/example/RGTGAN/options/RGTGAN.yml`
- - Note that if you follow the steps for data preprocess, then dataroots don't need moodification.
+  - `./codes/example/RGTGAN/options/RGTGAN.yml`
+  - Note that if you follow the steps for data preprocess, then dataroots don't need moodification.
 - **Step III.** Start training:
 ```
 sh train.sh
