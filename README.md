@@ -44,7 +44,7 @@ cd ./codes/example/RGTGAN
 ```
 - **Step II.** Modify the dataroots for train and val based on your actual root in
   - `./codes/example/RGTGAN/options/RGTGAN.yml`
-  - Note that if you follow the steps for data preprocess, then dataroots don't need moodification.
+  - Note that if you follow the steps for data preprocess, then dataroots don't need moodification
 - **Step III.** Start training:
 ```
 sh train.sh
@@ -61,7 +61,7 @@ cd ./codes/example/RGTGAN
 ```
 sh val.sh
 ```
-- **Optional.** Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research.
+- **Optional.** Note that the evaluation results in the paper are asseseed differently from the codes where only PSNR and SSIM scores are calculated. You should unify your evluation metrics calculation standards in your research
 
 ## Results
 - RRSSRD test set:
