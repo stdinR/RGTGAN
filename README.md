@@ -26,7 +26,7 @@ sh make.sh
 ## Data Preprocess
 - **Step I.** Unzip and put the training data and test data in the folder as
   - `./dataset/train/train_KaggleSRD/HR(and others)`
-  - `./dataset/train/val_KaggleSRD/HR(and others)`
+  - `./dataset/val/val_KaggleSRD/HR(and others)`
 - **Step II.** Transform the images set into LMDB format for faster IO speed via
 ```
 cd ./dataset/data_script
@@ -43,6 +43,7 @@ python create_lmdb.py
 cd ./codes/example/RGTGAN
 ```
 - **Step II.** Modify the dataroots for train and val based on your actual root in `./codes/example/RGTGAN/options/RGTGAN.yml`
+  Note that if you follow the steps for data preprocess, then dataroots don't need moodification.
 - **Step III.** Start training:
 ```
 sh train.sh
@@ -77,7 +78,7 @@ sh val.sh
 </p>
 
 ## Citation
-If you find this code useful for your research, please consider citing our paper:
+If you find this code or dataset useful for your research, please consider citing our paper:
 ``````
 @ARTICLE{10415231,
   author={Tu, Ziming and Yang, Xiubin and He, Xi and Yan, Jiapu and Xu, Tingting},
