@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import sys
 
 from torchvision import models
-from utils2 import MeanShift
+from models.archs.utils2 import MeanShift
 
 import matplotlib.pyplot as plt
 
