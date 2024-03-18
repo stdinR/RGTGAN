@@ -13,7 +13,7 @@ pip install numpy pyyaml opencv-python scipy
 ```
 - DCN_v3 installation: (more about DCN_v3 please refer to [InternImage](https://github.com/OpenGVLab/InternImage))
 ```
-cd ./codes/ops_dcn_v3
+cd ./codes/ops_dcnv3
 ```
 ```
 sh make.sh
